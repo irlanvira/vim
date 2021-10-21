@@ -10,23 +10,36 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
-:wq
-|2,0,1634833708,,"wq"
 :q
-|2,0,1634833631,,"q"
+|2,0,1634842850,,"q"
+:w
+|2,0,1634842847,,"w"
+:wq
+|2,0,1634840294,,"wq"
+:PlugInstall
+|2,0,1634838702,,"PlugInstall"
+:q!
+|2,0,1634838648,,"q!"
+:help
+|2,0,1634837853,,"help"
+:doc
+|2,0,1634837849,,"doc"
+:help register
+|2,0,1634837818,,"help register"
 :p
 |2,0,1634827785,,"p"
-:q!
-|2,0,1634825693,,"q!"
 :Q
 |2,0,1634825685,,"Q"
-:w
-|2,0,1634774734,,"w"
 :WQ
 |2,0,1634760034,,"WQ"
 
 # Search String History (newest to oldest):
+? \$\(cursor\|select\)\$
+|2,1,1634839773,,"\\$\\(cursor\\|select\\)\\$"
 
 # Expression History (newest to oldest):
 
@@ -39,237 +52,284 @@
 # global variables:
 
 # File marks:
-'0  1  7  ~/.gitignore
-|4,48,1,7,1634833708,"~/.gitignore"
-'1  254  0  ~/.viminfo
-|4,49,254,0,1634833631,"~/.viminfo"
-'2  7  9  ~/sukma-2.txt
-|4,50,7,9,1634833149,"~/sukma-2.txt"
-'3  1  0  ~/sukma.txt
-|4,51,1,0,1634832800,"~/sukma.txt"
-'4  75  59  ~/latihanmenghapus.txt
-|4,52,75,59,1634828013,"~/latihanmenghapus.txt"
-'5  1  20  ~/.vimrc
-|4,53,1,20,1634827960,"~/.vimrc"
-'6  1  0  ~/latihanmenghapus.txt
-|4,54,1,0,1634827931,"~/latihanmenghapus.txt"
-'7  1  0  ~/latihanmenghapus.txt
-|4,55,1,0,1634827931,"~/latihanmenghapus.txt"
-'8  4  23  ~/sukma-2.txt
-|4,56,4,23,1634826965,"~/sukma-2.txt"
-'9  4  23  ~/sukma-2.txt
-|4,57,4,23,1634826965,"~/sukma-2.txt"
+'0  3  3  ~/.gitignore
+|4,48,3,3,1634842850,"~/.gitignore"
+'1  1  0  ~/index.html
+|4,49,1,0,1634842711,"~/index.html"
+'2  12  13  ~/styles.css
+|4,50,12,13,1634840294,"~/styles.css"
+'3  9  23  ~/index.html
+|4,51,9,23,1634840220,"~/index.html"
+'4  9  23  ~/index.html
+|4,52,9,23,1634840220,"~/index.html"
+'5  1  0  ~/index
+|4,53,1,0,1634840195,"~/index"
+'6  16  21  ~/styles.css
+|4,54,16,21,1634840178,"~/styles.css"
+'7  15  21  ~/styles.css
+|4,55,15,21,1634840178,"~/styles.css"
+'8  9  87  ~/index.html
+|4,56,9,87,1634840144,"~/index.html"
+'9  9  87  ~/index.html
+|4,57,9,87,1634840144,"~/index.html"
 
 # Jumplist (newest first):
--'  1  7  ~/.gitignore
-|4,39,1,7,1634833708,"~/.gitignore"
--'  254  0  ~/.viminfo
-|4,39,254,0,1634833631,"~/.viminfo"
--'  254  0  ~/.viminfo
-|4,39,254,0,1634833631,"~/.viminfo"
--'  311  3  ~/.viminfo
-|4,39,311,3,1634833616,"~/.viminfo"
--'  311  3  ~/.viminfo
-|4,39,311,3,1634833616,"~/.viminfo"
--'  315  1  ~/.viminfo
-|4,39,315,1,1634833614,"~/.viminfo"
--'  315  1  ~/.viminfo
-|4,39,315,1,1634833614,"~/.viminfo"
--'  51  10  ~/.viminfo
-|4,39,51,10,1634833605,"~/.viminfo"
--'  51  10  ~/.viminfo
-|4,39,51,10,1634833605,"~/.viminfo"
--'  1  0  ~/.viminfo
-|4,39,1,0,1634833565,"~/.viminfo"
--'  1  0  ~/.viminfo
-|4,39,1,0,1634833565,"~/.viminfo"
--'  7  9  ~/sukma-2.txt
-|4,39,7,9,1634833149,"~/sukma-2.txt"
--'  7  9  ~/sukma-2.txt
-|4,39,7,9,1634833149,"~/sukma-2.txt"
--'  7  9  ~/sukma-2.txt
-|4,39,7,9,1634833149,"~/sukma-2.txt"
--'  7  9  ~/sukma-2.txt
-|4,39,7,9,1634833149,"~/sukma-2.txt"
--'  1  0  ~/sukma-2.txt
-|4,39,1,0,1634832804,"~/sukma-2.txt"
--'  1  0  ~/sukma-2.txt
-|4,39,1,0,1634832804,"~/sukma-2.txt"
--'  1  0  ~/sukma-2.txt
-|4,39,1,0,1634832804,"~/sukma-2.txt"
--'  1  0  ~/sukma-2.txt
-|4,39,1,0,1634832804,"~/sukma-2.txt"
--'  1  0  ~/sukma.txt
-|4,39,1,0,1634832800,"~/sukma.txt"
--'  1  0  ~/sukma.txt
-|4,39,1,0,1634832800,"~/sukma.txt"
--'  1  0  ~/sukma.txt
-|4,39,1,0,1634832800,"~/sukma.txt"
--'  1  0  ~/sukma.txt
-|4,39,1,0,1634832800,"~/sukma.txt"
--'  1  0  ~/sukma.txt
-|4,39,1,0,1634832800,"~/sukma.txt"
--'  1  0  ~/sukma.txt
-|4,39,1,0,1634832800,"~/sukma.txt"
--'  1  0  ~/sukma.txt
-|4,39,1,0,1634832800,"~/sukma.txt"
--'  1  0  ~/sukma.txt
-|4,39,1,0,1634832800,"~/sukma.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  75  59  ~/latihanmenghapus.txt
-|4,39,75,59,1634828013,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  0  ~/latihanmenghapus.txt
-|4,39,1,0,1634827967,"~/latihanmenghapus.txt"
--'  1  20  ~/.vimrc
-|4,39,1,20,1634827960,"~/.vimrc"
--'  1  20  ~/.vimrc
-|4,39,1,20,1634827960,"~/.vimrc"
--'  1  20  ~/.vimrc
-|4,39,1,20,1634827960,"~/.vimrc"
--'  1  20  ~/.vimrc
-|4,39,1,20,1634827960,"~/.vimrc"
--'  1  20  ~/.vimrc
-|4,39,1,20,1634827960,"~/.vimrc"
--'  1  20  ~/.vimrc
-|4,39,1,20,1634827960,"~/.vimrc"
--'  1  20  ~/.vimrc
-|4,39,1,20,1634827960,"~/.vimrc"
--'  1  20  ~/.vimrc
-|4,39,1,20,1634827960,"~/.vimrc"
--'  1  20  ~/.vimrc
-|4,39,1,20,1634827960,"~/.vimrc"
+-'  3  3  ~/.gitignore
+|4,39,3,3,1634842850,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1634842834,"~/.gitignore"
+-'  1  0  ~/index.html
+|4,39,1,0,1634842711,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634842711,"~/index.html"
+-'  12  13  ~/styles.css
+|4,39,12,13,1634840294,"~/styles.css"
+-'  12  13  ~/styles.css
+|4,39,12,13,1634840294,"~/styles.css"
+-'  12  13  ~/styles.css
+|4,39,12,13,1634840294,"~/styles.css"
+-'  12  13  ~/styles.css
+|4,39,12,13,1634840294,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840228,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840228,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840228,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840228,"~/styles.css"
+-'  9  23  ~/index.html
+|4,39,9,23,1634840220,"~/index.html"
+-'  9  23  ~/index.html
+|4,39,9,23,1634840220,"~/index.html"
+-'  9  23  ~/index.html
+|4,39,9,23,1634840220,"~/index.html"
+-'  9  23  ~/index.html
+|4,39,9,23,1634840220,"~/index.html"
+-'  9  23  ~/index.html
+|4,39,9,23,1634840220,"~/index.html"
+-'  9  23  ~/index.html
+|4,39,9,23,1634840220,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840198,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840198,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840198,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840198,"~/index.html"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1634840195,"~/index"
+-'  16  21  ~/styles.css
+|4,39,16,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  16  21  ~/styles.css
+|4,39,16,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  16  21  ~/styles.css
+|4,39,16,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  16  21  ~/styles.css
+|4,39,16,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  15  21  ~/styles.css
+|4,39,15,21,1634840178,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  1  0  ~/styles.css
+|4,39,1,0,1634840149,"~/styles.css"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  9  87  ~/index.html
+|4,39,9,87,1634840144,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840058,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840058,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840058,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840058,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840058,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840058,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840058,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840058,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840058,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1634840058,"~/index.html"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1634833705	0
-	"	1	7
-	^	1	8
-	.	1	8
+	*	1634842848	0
+	"	3	3
+	^	3	4
+	.	3	3
 	+	1	8
+	+	3	3
+
+> ~/index.html
+	*	1634840303	0
+	"	1	0
+	^	9	24
+	.	9	23
+	+	1	0
+	+	9	36
+	+	9	89
+	+	9	22
+	+	6	40
+	+	9	88
+	+	10	0
+	+	9	23
+
+> ~/styles.css
+	*	1634840291	0
+	"	12	13
+	^	12	14
+	.	12	13
+	+	13	1
+	+	17	0
+	+	10	20
+	+	12	13
+
+> ~/index
+	*	1634840192	0
+	"	1	0
+
+> ~/.vimrc
+	*	1634838534	0
+	"	5	14
+	^	5	15
+	.	5	14
+	+	1	20
+	+	2	0
+	+	5	14
+
+> /data/data/com.termux/files/usr/share/vim/vim82/doc/help.txt
+	*	1634837897	0
+	"	42	5
+	j	8	70
+
+> /data/data/com.termux/files/usr/share/vim/vim82/doc/sponsor.txt
+	*	1634837819	0
+	"	24	25
 
 > ~/.viminfo
 	*	1634833627	0
@@ -299,13 +359,6 @@
 	.	75	59
 	+	1	42
 	+	75	59
-
-> ~/.vimrc
-	*	1634827957	0
-	"	1	20
-	^	1	21
-	.	1	20
-	+	1	20
 
 > ~/arayra.txt
 	*	1634774737	0
